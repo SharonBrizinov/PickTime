@@ -23,5 +23,5 @@ You can also ask the chrome extension not not send “real” tokens, only anony
     a. Enable _“Developer Mode”_
     b. Click _“Load unpacked”_ and select the directory you saved earlier
     c. Log in (anonymously or with your mobile phone) to MyVisit.com
-That’s it! Now you are helping the bot to help others!
+4. That’s it! Now you are helping the bot to help others!
 
