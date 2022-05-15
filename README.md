@@ -17,12 +17,11 @@ Yes, but you can also create an anonymous session if you don’t want to send yo
 You can also ask the chrome extension not not send “real” tokens, only anonymous tokens. Change `isAllowSendRealToken` to `true` or `false` based on your preference. Default is `true` because again, the sessions are only good for 10 minutes.
 
 ### How to install the chrome extension
-1. Clone the repository or simply download it from [here](https://github.com/SharonBrizinov/PickTime/archive/refs/heads/master.zip)
-2. Save it in a directory on your computer
-3. Open Chrome and go to `chrome://extensions` (Chrome Settings → Extensions)
-4. Then - 
-    a. Enable _“Developer Mode”_
-    b. Click _“Load unpacked”_ and select the directory you saved earlier
-    c. Log in (anonymously or with your mobile phone) to MyVisit.com
+1. Clone the repository or simply download it from [here](https://github.com/SharonBrizinov/PickTime/archive/refs/heads/master.zip).
+2. Save it in a directory on your computer.
+3. Open Chrome and go to `chrome://extensions` (Chrome Settings → Extensions).
+    1. Enable _“Developer Mode”_.
+    2. Click _“Load unpacked”_ and select the directory you saved earlier.
+    3. Log in (anonymously or with your mobile phone) to MyVisit.com.
 4. That’s it! Now you are helping the bot to help others!
 
