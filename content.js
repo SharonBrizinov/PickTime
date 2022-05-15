@@ -1,4 +1,4 @@
-var isDebug = true;
+var isDebug = false;
 var intervalTime = 9 * 1000; // 9 seconds
 var isAllowSendRealToken = true; // Allow to send non-anonymous too?
 
@@ -45,7 +45,7 @@ function checkPickTimeToken() {
         },
           body: JSON.stringify({token: newToken, type: newTokenType})
         }).then(res => res.json())
-          .then(res => console.log("PickTime: " + res));
+          .then(res => isDebug && console.log(res));
 
     }
   }

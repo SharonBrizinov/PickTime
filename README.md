@@ -2,6 +2,10 @@
 
 ### TL;DR
 This is a simple Chrome extension to help PickTime bot survive with the help of the citizens. It will collect valid tokens from your MyVisit session and use it to feed the PickTime bot. 
+All you need to do in order to help the community is to visit MyVisit from time to time, and solve a CAPTCHA.
+
+Remember - now, every visit in myvisit helps others :)
+
 
 ### Background
 As you all know, around May 2022 Callflow, the company behind MyVisit, added an anti-bot mechanism to protect its API against bots. In addition to CAPTCHA v3, they also shortened the session time to 10 minutes. This killed all the existing bots that helped to ease the Israeli citizens' life by finding an available slot for them in the various Israeli government websites.
@@ -25,3 +29,8 @@ You can also ask the chrome extension not not send “real” tokens, only anony
     3. Log in (anonymously or with your mobile phone) to MyVisit.com.
 4. That’s it! Now you are helping the bot to help others!
 
+#### Demo: how to create an anonymous session and help the community
+![alt Create Anonymous Session](res/extension_anonymous_session.gif "Create Anonymous Session")
+
+#### Demo: how to install the extension
+![alt Install](res/install.gif "Install Extension")
