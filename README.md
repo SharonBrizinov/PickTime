@@ -20,6 +20,7 @@ You can also ask the chrome extension not not send “real” tokens, only anony
 1. Clone the repository or simply download it from [here](https://github.com/SharonBrizinov/PickTime/archive/refs/heads/master.zip)
 2. Save it in a directory on your computer
 3. Open Chrome and go to `chrome://extensions` (Chrome Settings → Extensions)
+4. Then - 
     a. Enable _“Developer Mode”_
     b. Click _“Load unpacked”_ and select the directory you saved earlier
     c. Log in (anonymously or with your mobile phone) to MyVisit.com
