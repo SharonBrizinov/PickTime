@@ -3,11 +3,13 @@
   "description": "extract tokens from myvisit.com to populate picktime",
   "version": "0.1",
   "permissions": [
-      "storage"
+      "storage",
+      "activeTab"
     ],
   "content_scripts": [
     {
       "run_at": "document_end",
+      "all_frames": true,
       "matches": [
         "https://myvisit.com/*"
       ],
@@ -16,7 +18,8 @@
   ],
     "browser_action": {
       "default_icon": "icon.png",
-      "default_title": "PickTime"
+      "default_title": "PickTime",
+      "default_popup": "popup.html"
     },
     "manifest_version": 2
 }
