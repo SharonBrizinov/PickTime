@@ -1,5 +1,5 @@
 var isDebug = false;
-var intervalTime = 9 * 1000; // 9 seconds
+var intervalTime = 3 * 1000; // 3 seconds
 var isAllowSendRealToken = true; // Allow to send non-anonymous too?
 
 function checkPickTimeToken() {
